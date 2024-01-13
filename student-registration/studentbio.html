@@ -5,9 +5,11 @@
     <body>
         <h1>STUDENT BIO DETAILS</h1><br/>
         <label>Name<br/><input type="text" name="fullname" placeholder="Enter your fullname"></label><br/><br/>
+        <label>Upload Passport</label><br/><input type="file" name="Passport" placeholder="Choose file"><br/><br/>
         <label>Gender<br/><input type="radio" name="Gender" value="Male">Male
         <input type="radio" name="Gender" value="Female">Female</label><br/><br/>
         <label>Date of Birth<br/><input type="date" name="Date of birth" ></label><br/><br/>
+        <label>Identity Number</label><br/><input type="number" name="Id" placeholder="Enter your Id Number"><br/><br/>
         <label>Registration Number<br/><input type="text" name="Registration number" placeholder="Enter your Registration No.">
         </label><br/><br/>
         <label>Faculty<br/>
@@ -17,7 +19,15 @@
                 <option value="School of Nursing">School of Nursing</option>
                 <option value="School of Law">School of Law</option>
                 <option value="School of Tourism & Natural Resources">School of Tourism & Natural Resources</option>
-            </select>
+            </select><br/><br/>
         </label>
-    </body>
+        <label>Interests</label><br/>
+            <input type="checkbox" name="Interests" value="Sports">Sports
+            <input type="checkbox" name="Interests" value="Music">Music
+            <input type="checkbox" name="Interests" value="Theatre">Theatre
+            <input type="checkbox" name="Interests" value="Others">Others
+            <br/><br/>
+        <label>Rate your school experience</label><br/><input type="range" name="rating" min="0" max="10">
+
+</body>
 </html>
