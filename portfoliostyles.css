@@ -1,9 +1,13 @@
-h1{text-align: center; color: black; font-size: 40px;}
+#name-heading{text-align: center; font-size: 40px; font-weight: bold; background-color: lightgrey;
+     border: 2px solid; padding: 10px; margin-left: 400px; margin-right: 400px;}
  #About-paragraph{text-align: center; font-weight: bold;}
-header h1{border: 1px solid;}
+section{border-bottom: 1px solid;}
+#about-me{border-top: 1px solid black;}
 h3{color: blue;}
-h5{font-style: italic;}
-* text{ font-size:large;}
-a[href]{font-style: italic;}
+h4{margin-bottom: 0px;}
+h5{font-style: italic; font-size: medium;}
+ul{margin-top: 0px;}
+*{ font-size:medium;}
+a[href]{font-style: italic; color: blueviolet;}
 ul{list-style-type: square;}
 footer{text-align: center; font-style: italic; font-weight: bold;}
