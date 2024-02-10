@@ -8,14 +8,19 @@
     border: 1px solid black;
     height: 100%;
     width: 30%;
+    background-color: blue;
 }
 .main-area{
     border: 1px solid black;
     height: 100%;
     width: 70%;
+    background-color: beige;
 }
 .main-section{
     display: flex;
     height: 90%;
 }
-.top-bar{height: 10%;}
+.top-bar{
+    height: 10%;
+    background-color: red;
+}
